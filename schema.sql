@@ -21,10 +21,13 @@
 -- WHERE email NOT LIKE "%@yahoo.com%"&&"%@gmail.com%"&&"%@hotmail.com%";
 
 -- CHALLENGE 5:
-SELECT (CASE WHEN email LIKE '%@yahoo.com%' THEN 'yahoo'
-             WHEN email LIKE '%@gmail.com%' THEN 'gmail'
-             WHEN email LIKE '%hotmail.com%' THEN 'hotmail'
-             ELSE "Other"
-        END) as provider , COUNT(*)
-FROM users
-GROUP BY provider;
+-- SELECT (CASE WHEN email LIKE '%@yahoo.com%' THEN 'yahoo'
+--              WHEN email LIKE '%@gmail.com%' THEN 'gmail'
+--              WHEN email LIKE '%hotmail.com%' THEN 'hotmail'
+--              ELSE "Other"
+--         END) as provider , COUNT(*)
+-- FROM users
+-- GROUP BY provider;
+
+-- =================================================
+

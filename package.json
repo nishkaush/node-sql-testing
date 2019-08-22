@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha ./tests/app.test.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "prompt": "node ./terminal-prompt.js",
+    "git": "git add . && git commit -m",
+    "postgit": "git push"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +18,8 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "faker": "^4.1.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
